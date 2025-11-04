@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('UKM Info Page'),
+          title: const Text('Halaman Tombol Stateless widget'),
           backgroundColor: Colors.green,
         ),
         body: Padding(
@@ -26,12 +26,12 @@ class MyApp extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               const Text(
-                'UKM Coding Club',
+                'Oleh Laverda Shafa Urnakara 221080200007',
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 10),
               const Text(
-                'Belajar Flutter, Web, dan IoT bersama dalam komunitas seru dan produktif!',
+                'Tugas Individu Flutter',
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: 20),
@@ -41,13 +41,13 @@ class MyApp extends StatelessWidget {
                   ElevatedButton.icon(
                     onPressed: () {},
                     icon: const Icon(Icons.info),
-                    label: const Text('Tentang'),
+                    label: const Text('Tombol pertama'),
                   ),
                   const SizedBox(width: 10),
                   ElevatedButton.icon(
                     onPressed: () {},
                     icon: const Icon(Icons.group),
-                    label: const Text('Anggota'),
+                    label: const Text('Tombol Kedua'),
                   ),
                 ],
               )
